@@ -1,0 +1,8 @@
+<h2>Top 5 Hotels</h2>
+<div class="heroes-menu">
+  <a *ngFor="let hotel of hotels"  routerLink="/detail/{{hotel.id}}">
+    {{hotel.name}}
+  </a>
+</div>
+
+<app-hotel-search></app-hotel-search>

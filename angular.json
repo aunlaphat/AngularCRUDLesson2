@@ -8,6 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
+  
         }
       },
       "root": "",
@@ -30,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              
               "src/styles.scss"
             ],
             "scripts": []
@@ -100,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "45507acf-84d1-406e-bbc6-1c2307c09321"
   }
 }

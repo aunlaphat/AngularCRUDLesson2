@@ -1,0 +1,23 @@
+<h2>View Hotels</h2>
+
+<div>
+    <label for="new-hero">Hotel name: </label>
+    <input id="new-hero" #heroName />
+  
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button type="button" class="add-button" (click)="add(heroName.value); heroName.value=''">
+      Add hotel
+    </button>    
+</div>
+
+<ul class="heroes">
+  <li *ngFor="let hotel of hotels">
+    <a routerLink="/detail/{{hotel.id}}">
+        <span class="badge">{{hotel.id}}</span> {{hotel.name}}
+    </a>
+    <button type="button" class="delete" title="delete hero"
+      (click)="delete(hotel)">x</button>
+    </li>
+</ul>
+
+  
