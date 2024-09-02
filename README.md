@@ -1,4 +1,9 @@
-# AngularTourOfHeroes
+# CRUD Lesson of Angular "Web Top 5 Hotel Reservation"
+## Sample Pages from This Project
+
+![image](https://github.com/user-attachments/assets/b21c395e-7d93-430e-98bc-346fd03d6445)
+![image](https://github.com/user-attachments/assets/ddf051b8-d9ff-421b-89e1-2a806eb8a080)
+![image](https://github.com/user-attachments/assets/88b66a37-a1bf-4600-aa13-eb5134ba359c)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
 
